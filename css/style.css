@@ -68,23 +68,23 @@ body {
     margin-left: 191px;
 }
 
-.menu ul {
+.addition-content ul {
     list-style: none;
     display: flex;
 }
 
-.menu-item {
+.addition-content-item {
     margin-right: 88px;
 }
 
-.menu-item a {
+.addition-content-item a {
     color: white;
     font-size: 18px;
     text-decoration: none;
     cursor: pointer;
 }
 
-.menu-item a:hover {
+.addition-content-item a:hover {
     border-bottom: 2px solid antiquewhite;
     color: antiquewhite;
 }
@@ -336,4 +336,8 @@ body {
     font-size: 16px;
     line-height: 20px;
 }
+
+
+
+
 
