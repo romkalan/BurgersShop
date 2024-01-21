@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Burgers Shop</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
 
@@ -16,13 +17,13 @@
             <nav class="addition-content menu">
                 <ul>
                     <li class="addition-content-item menu-item">
-                        <a href="#">Почему у нас</a>
+                        <a data-link="why">Почему у нас</a>
                     </li>
                     <li class="addition-content-item menu-item">
-                        <a href="#">Меню бургеров</a>
+                        <a data-link="products">Меню бургеров</a>
                     </li>
                     <li class="addition-content-item menu-item">
-                        <a href="#">Оформление заказа</a>
+                        <a data-link="order">Оформление заказа</a>
                     </li>
                 </ul>
             </nav>
@@ -42,7 +43,7 @@
                     бургеров. Готовим для вас лучшие бургеры в городе из отборной мраморной говядины.
                 </p>
                 <div class="main-action">
-                    <button class="button">Смотреть меню</button>
+                    <button class="button" id="main-action-button">Смотреть меню</button>
                 </div>
             </div>
             <img src="images/main_burger.png" alt="Big burger" class="main-image">
@@ -50,7 +51,7 @@
     </section>
 </section>
 
-<section class="why">
+<section class="why" id="why">
     <div class="container">
         <div class="why-title common-title">Почему нас выбирают?</div>
         <div class="why-items">
@@ -82,7 +83,7 @@
     </div>
 </section>
 
-<section class="products">
+<section class="products" id="products">
     <div class="container">
         <div class="products-title common-title">Выберите свой бургер</div>
         <div class="products-items">
@@ -427,7 +428,7 @@
     </div>
 </section>
 
-<section class="order">
+<section class="order" id="order">
     <div class="container">
         <div class="order-title common-title">Оформление заказа</div>
         <img src="images/order_image.png" alt="Burger in the box" class="order-image">
